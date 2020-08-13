@@ -1,0 +1,8 @@
+<h1> Create a Heroine with a Power! </h1>
+
+<%= form_for @heroine_power do |f| %>
+<strong>Heroine: <%= f.collection_select :heroine_id, Heroine.all, :id, :name %></strong>
+<strong>Power: <%= f.collection_select :power_id, Power.all, :id, :name %></strong>
+<strong>Strength: <%= f.text_field :strength, required: true%></strong>
+<%= f.submit "Create the HeroinePower" %>
+<% end %>
