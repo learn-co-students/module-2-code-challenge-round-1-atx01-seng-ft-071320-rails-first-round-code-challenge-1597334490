@@ -1,0 +1,18 @@
+<%= form_for @heroinepower do |f| %>
+  <%= f.collection_select :heroine_id, Heroine.all, :id, :name %>
+  <%= f.collection_select :power_id, Power.all, :id, :name %>
+
+<ul>
+  <% if @heroinepower.errors.any? %>
+    <% @heroinepower.errors.full_message.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+  <% end %>  
+</ul>
+
+  <%= f.label :Strength %>
+  <%= f.text_field :strength %>
+
+  <%= f.submit %>
+
+<% end %>
