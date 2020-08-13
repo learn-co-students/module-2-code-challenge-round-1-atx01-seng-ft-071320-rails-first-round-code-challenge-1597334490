@@ -1,4 +1,4 @@
-class CreateHeroines < ActiveRecord::Migration[5.0]
+class CreateHeroines < ActiveRecord::Migration[5.1]
   def change
     create_table :heroines do |t|
       t.string :name

@@ -1,0 +1,10 @@
+<h1>Customize a New Heroine!</h1>
+
+
+
+<%= form_for(@heroine) do |p| %>
+Choose a Heroine: <%= p.collection_select(:heroine_power_ids, Heroine.all, :id, :name) %>
+Your Super Power: <%= p.collection_select(:power_ids, Power.all, :id, :name) %>
+<%# Power Strength: <%= f.text_field %><br> 
+<%= p.submit %>
+<% end %>
