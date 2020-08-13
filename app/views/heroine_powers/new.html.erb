@@ -1,0 +1,26 @@
+<h1>New Heroine-Power Form:</h1>
+
+<%= form_for @heroine_power do |f| %> 
+
+   
+     <% if @heroine_power.errors.any? %> 
+         <% @heroine_power.errors.full_messages.each do |msg| %> 
+            <li><%= msg %></li>
+        <% end %> 
+    <% end %> 
+
+
+
+    <h3><%= f.label 'Select a Heroine:' %></h3>
+    <%= f.collection_select :heroine_id, Heroine.all, :id, :super_name %>
+
+    <h3><%= f.label 'Select a Power:' %></h3>
+    <%= f.collection_select :power_id, Power.all, :id, :name %>
+
+    <h3><%= f.label 'Strength:' %></h3>
+    <%= f.text_field :strength %><br>
+
+    <%= f.submit "Submit" %> 
+<% end %>
+
+

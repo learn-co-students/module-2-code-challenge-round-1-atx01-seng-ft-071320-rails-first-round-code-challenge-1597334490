@@ -1,4 +1,4 @@
-# Rails Code Challenge - Superheroines
+<!-- # Rails Code Challenge - Superheroines
 
 For this assessment, you'll be working with a heroines and powers domain.
 
@@ -12,7 +12,7 @@ In this repo, there is a Rails application with some features built out. Your jo
 - Forms and Form Helpers
 - ActiveRecord
 - Validations
-
+ 
 ## Setup
 
 Before you begin coding your solution, clone this repo and then `cd` into it. Then run `bundle install`, `rails db:migrate`, and `rails db:seed` to install dependencies and set up the database, and run `rails s` to start the server.
@@ -65,44 +65,44 @@ A HeroinePower should have a:
 - power
 - strength, as a string value (e.g. "Strong" or "Weak")
 
-Each Heroine can have multiple powers. Powers can belong to multiple Heroines. Each HeroinePower has its own strength value.
-
+Each Heroine can have multiple powers. Powers can belong to multiple Heroines. Each HeroinePower has its own strength value. -->
+<!-- 
 ### 2. Heroine index page links
 
-On the heroines index page, a heroine's super name should link to that heroine's show page.
+On the heroines index page, a heroine's super name should link to that heroine's show page. -->
 
-### 3. Heroine show page
+<!-- ### 3. Heroine show page
 
 Each Heroine show page should include the:
 
 - name (eg. Kamala Khan)
-- super name (eg. Ms. Marvel)
+- super name (eg. Ms. Marvel) -->
 
-### 4. Power show page
+<!-- ### 4. Power show page
 
 Power show page should include the:
 
 - name
-- description
+- description -->
 
-### 5. HeroinePower Create page
+<!-- ### 5. HeroinePower Create page
 
-Show a form to associate a Heroine with a Power. It should have:
+Show a form to associate a Heroine with a Power. It should have: -->
 
-- a select dropdown to choose a Heroine
-- a select dropdown to choose a Power
-- a text input to assign a string value to the HeroinePower's strength
-- a submit button to create the HeroinePower
-
-After successfully creating a HeroinePower, the user should be redirected to the selected Heroine's show page.
-
+<!-- - a select dropdown to choose a Heroine -->
+<!-- - a select dropdown to choose a Power -->
+<!-- - a text inpu t to assign a string value to the HeroinePower's strength -->
+<!-- - a submit button to create the HeroinePower -->
+<!-- 
+After successfully creating a HeroinePower, the user should be redirected to the selected Heroine's show page. -->
+<!-- 
 ### 6. HeroinePower Strength Validation
 
 Add validations to the HeroinePower model:
 
 - strength must be one of the following values: 'Strong', 'Weak', 'Average'
 
-Add error handling to the create action. If a user tries to create an invalid HeroinePower, the user should see the validation errors.
+Add error handling to the create action. If a user tries to create an invalid HeroinePower, the user should see the validation errors. -->
 
 ### 7. Advanced: HeroinePower Power Validation
 
