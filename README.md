@@ -23,6 +23,9 @@ There are three models in the domain: Power, Heroine, and a join model HeroinePo
 
 Each Heroine can have multiple powers. Powers can belong to multiple Heroines.
 
+<!-- Heroine has_many powers -->
+<!-- Powers belongs_to Heroine -->
+
 ## What You Already Have
 
 The starter code has migrations, models, and seed data for the initial Power and Heroine models. There are also routes, controllers and views to support the Power and Heroine index pages.
@@ -69,28 +72,32 @@ Each Heroine can have multiple powers. Powers can belong to multiple Heroines. E
 
 ### 2. Heroine index page links
 
-On the heroines index page, a heroine's super name should link to that heroine's show page.
+<!-- On the heroines index page, a heroine's super name should link to that heroine's show page. -->
+
 
 ### 3. Heroine show page
 
 Each Heroine show page should include the:
 
-- name (eg. Kamala Khan)
-- super name (eg. Ms. Marvel)
+<!-- - name (eg. Kamala Khan)
+- super name (eg. Ms. Marvel) -->
+
 
 ### 4. Power show page
 
 Power show page should include the:
-
+<!-- 
 - name
-- description
+- description -->
 
 ### 5. HeroinePower Create page
 
 Show a form to associate a Heroine with a Power. It should have:
 
 - a select dropdown to choose a Heroine
+<!-- get all the heroines on the page -->
 - a select dropdown to choose a Power
+<!-- get all the powers on the page -->
 - a text input to assign a string value to the HeroinePower's strength
 - a submit button to create the HeroinePower
 
