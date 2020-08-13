@@ -1,0 +1,16 @@
+# <h1>Create A Heroine!!!</h1>
+# <p>Choose a heroine, select a power, and decide their strength level!</p>
+# <% form_for @heroine_power do |f| %>
+#     <%= f.label :heroine %>
+#     <%= f.collection_select :heroine_id, Heroine.all, :id, :name, prompt: true %><br> 
+#     <br> 
+#     <%= f.label :power %>
+#     <%= f.collection_select :power_id, Power.all, :id, :power, prompt: true  %><br> 
+#     <br> 
+#     <%= f.label :strength %>
+#     <%= f.number_field :strength %><br> 
+#     <br> 
+#     <%= f.submit %>
+# <% end %>
+    
+#IGNORE THIS VIEW @ANTONIO

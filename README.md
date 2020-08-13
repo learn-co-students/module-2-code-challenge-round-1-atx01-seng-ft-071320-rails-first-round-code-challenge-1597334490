@@ -61,29 +61,29 @@ Create the association between the models. Update the schema and models to creat
 
 A HeroinePower should have a:
 
-- heroine
-- power
-- strength, as a string value (e.g. "Strong" or "Weak")
+<!-- - heroine -->
+<!-- - power -->
+<!-- - strength, as a string value (e.g. "Strong" or "Weak") -->
 
 Each Heroine can have multiple powers. Powers can belong to multiple Heroines. Each HeroinePower has its own strength value.
 
 ### 2. Heroine index page links
 
-On the heroines index page, a heroine's super name should link to that heroine's show page.
+<!-- On the heroines index page, a heroine's super name should link to that heroine's show page. -->
 
 ### 3. Heroine show page
 
-Each Heroine show page should include the:
+<!-- Each Heroine show page should include the: -->
 
-- name (eg. Kamala Khan)
-- super name (eg. Ms. Marvel)
+<!-- - name (eg. Kamala Khan) -->
+<!-- - super name (eg. Ms. Marvel) -->
 
 ### 4. Power show page
 
-Power show page should include the:
+<!-- Power show page should include the: -->
 
-- name
-- description
+<!-- - name -->
+<!-- - description -->
 
 ### 5. HeroinePower Create page
 
@@ -108,18 +108,18 @@ Add error handling to the create action. If a user tries to create an invalid He
 
 No Heroine should be associated with the same Power twice. (It doesn't make sense for Ms Marvel to be associated with Seventh Sense twice!)
 
-- Add a validation to prevent this.
+<!-- - Add a validation to prevent this. -->
 - Update the error handling in the create action to display this error
 
 ### 8. Advanced: Display Heroines' Powers
 
-Update the Heroine show page to display the Powers that the heroine has.
+<!-- Update the Heroine show page to display the Powers that the heroine has. -->
 
-Each power should link to the corresponding Power show page.
+<!-- Each power should link to the corresponding Power show page. -->
 
 ### 9. Advanced: Display the Strength of Each Heroine's Powers
 
-Update the Heroine's show page to display the strength of the Power next to the Power.
+<!-- Update the Heroine's show page to display the strength of the Power next to the Power. -->
 
 ### 10. Advanced: Powers Index Page Display Heroine Count
 
