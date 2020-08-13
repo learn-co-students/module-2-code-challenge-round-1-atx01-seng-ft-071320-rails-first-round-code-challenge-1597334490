@@ -19,9 +19,9 @@ Before you begin coding your solution, clone this repo and then `cd` into it. Th
 
 ## Domain
 
-There are three models in the domain: Power, Heroine, and a join model HeroinePower.
+<!-- There are three models in the domain: Power, Heroine, and a join model HeroinePower.
 
-Each Heroine can have multiple powers. Powers can belong to multiple Heroines.
+Each Heroine can have multiple powers. Powers can belong to multiple Heroines. -->
 
 ## What You Already Have
 
@@ -57,7 +57,7 @@ Update the code of the application to meet the following deliverables. Follow RE
 
 ### 1. HeroinePower association
 
-Create the association between the models. Update the schema and models to create the HeroinePower association.
+<!-- Create the association between the models. Update the schema and models to create the HeroinePower association.
 
 A HeroinePower should have a:
 
@@ -65,11 +65,11 @@ A HeroinePower should have a:
 - power
 - strength, as a string value (e.g. "Strong" or "Weak")
 
-Each Heroine can have multiple powers. Powers can belong to multiple Heroines. Each HeroinePower has its own strength value.
+Each Heroine can have multiple powers. Powers can belong to multiple Heroines. Each HeroinePower has its own strength value. -->
 
 ### 2. Heroine index page links
 
-On the heroines index page, a heroine's super name should link to that heroine's show page.
+<!-- On the heroines index page, a heroine's super name should link to that heroine's show page. -->
 
 ### 3. Heroine show page
 

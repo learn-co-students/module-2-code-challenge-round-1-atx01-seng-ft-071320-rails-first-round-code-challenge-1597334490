@@ -3,9 +3,17 @@
 <ul>
   <% @powers.each do |power| %>
     <li>
-      <%= power.name %>
+      Power: <%= power.name %>
+      <br>
       <br>
       Description: <%= power.description %>
+      <br>
+      <br>
+      Heroines with this Power: <%= power.total_heroines%>
+      <br>
+      <% power.heroines.each do |a| %>
+        <p><%= link_to a.super_name, heroine_path(a) %></p>
+      <%end%>
     </li>
   <% end %>
 </ul>
