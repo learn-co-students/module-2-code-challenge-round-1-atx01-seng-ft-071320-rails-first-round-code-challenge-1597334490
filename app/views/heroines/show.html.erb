@@ -1,0 +1,11 @@
+<h1>Heroine Name</h1><br>
+<h2><%=@heroine.name%></h2><br>
+<br>
+<h1>Heroine Super Name</h1><br>
+<h2><%=@heroine.super_name%></h2><br>
+<br>
+<h1>Heroine Powers</h1><br>
+<% @heroine.powers.each do |power| %> 
+    <label> Power: </label><%=link_to power.name, power_path(power)%>--- <label>Strength: </label><%= HeroinePower.find_by(power_id: power.id).strength%><br><br>
+<% end%>
+
