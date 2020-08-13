@@ -1,0 +1,16 @@
+<h1>New Super Heroine Power Create</h1>
+
+<%= form_for @heroine_power do |f| %>
+    <%=f.label :heroine_id%>
+    <%=f.collection_select :heroine_id, Heroine.all, :id, :super_name, prompt: true%><br>
+    
+
+    <%=f.label :power_id%>
+    <%=f.collection_select :power_id, Power.all, :id, :name, prompt: true%><br>
+    
+
+     <%=f.label :strength%>
+    <%=f.text_field :strength%><br>
+     <%=f.submit%>
+<%end%>
+
