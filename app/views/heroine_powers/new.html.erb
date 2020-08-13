@@ -1,0 +1,17 @@
+<h1>New Heroine Powers</h1>
+
+<%= form_for(@heroine_power) do |f|%>
+    <div class="field">
+    <%=f.label :heroine_name, "Heroine Name"%>
+    <%= f.collection_select(:heroines_id, Heroine.all, :id, :name) %>
+</div>
+<%end%>
+<%= form_for(@heroine_power) do |f|%>
+    <div class="field">
+    <%=f.label :Power_name, "Power"%>
+    <%= f.collection_select(:powers_id, Power.all, :id, :name) %>
+</div>
+<%=f.submit%>
+<%end%>
+
+#nooooo almost
