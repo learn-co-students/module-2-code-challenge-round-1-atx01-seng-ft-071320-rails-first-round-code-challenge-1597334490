@@ -55,6 +55,8 @@ Update the code of the application to meet the following deliverables. Follow RE
 
 ***Read through these deliverables carefully to understand the requirements for this code challenge. Tackle them one by one, as they build on each other sequentially.***
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 1. HeroinePower association
 
 Create the association between the models. Update the schema and models to create the HeroinePower association.
@@ -67,23 +69,35 @@ A HeroinePower should have a:
 
 Each Heroine can have multiple powers. Powers can belong to multiple Heroines. Each HeroinePower has its own strength value.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 ### 2. Heroine index page links
 
-On the heroines index page, a heroine's super name should link to that heroine's show page.
+<!-- On the heroines index page, a heroine's super name should link to that heroine's show page. -->
+
+--------------------------------------------------------------------------------------------------------
 
 ### 3. Heroine show page
 
-Each Heroine show page should include the:
+<!-- Each Heroine show page should include the:
 
 - name (eg. Kamala Khan)
-- super name (eg. Ms. Marvel)
+- super name (eg. Ms. Marvel) -->
+
+--------------------------------------------------------------------------------------------------------
 
 ### 4. Power show page
 
-Power show page should include the:
+<!-- Power show page should include the:
 
 - name
-- description
+- description -->
+
+--------------------------------------------------------------------------------------------------------
 
 ### 5. HeroinePower Create page
 
@@ -95,6 +109,8 @@ Show a form to associate a Heroine with a Power. It should have:
 - a submit button to create the HeroinePower
 
 After successfully creating a HeroinePower, the user should be redirected to the selected Heroine's show page.
+
+--------------------------------------------------------------------------------------------------------
 
 ### 6. HeroinePower Strength Validation
 
